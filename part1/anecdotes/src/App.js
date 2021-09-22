@@ -51,12 +51,11 @@ const App = () => {
         const newSelected = getRandomNumber(anecdotes.length)
         return setSelected(newSelected)
     }
-    const handleVoteClick = () =>{
+    const handleVoteClick = () => {
         const newAnecdotes = [...vote] //THAT'S how you properly copy please never forget this
-        newAnecdotes[selected]=newAnecdotes[selected]+1;
+        newAnecdotes[selected] = newAnecdotes[selected] + 1;
         return setVote(newAnecdotes)
     }
-
 
     return (
         <div>
