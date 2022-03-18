@@ -2,7 +2,7 @@
 
 Deep Dive Into Modern Web Development
 
-Full Stack open 2021
+Full Stack open 2022
 
 This repo is the home of all asignments done by George Covalciuc with the purpose of learning web development and completeing the course.
 
